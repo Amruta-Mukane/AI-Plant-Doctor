@@ -161,9 +161,7 @@ const uiText = {
 // ======================================================
 
 const BACKEND_URL =
-  Platform.OS === "web"
-    ? "http://localhost:5000"
-    : "http://10.183.187.106:5000";
+  "https://ai-plant-doctor-piah.onrender.com";
 
 // ======================================================
 // RESULT SCREEN

@@ -635,7 +635,7 @@ app.get(
       }
 
       console.log("=========== FINAL TRANSLATION ===========");
-      console.log(JSON.stringify(translated, null, 2));
+      console.log(JSON.stringify(data, null, 2));
       console.log("=========================================");
 
       return res.json({
