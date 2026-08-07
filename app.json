@@ -34,7 +34,16 @@
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Plant Doctor to access your photos.",
+          "cameraPermission": "Allow Plant Doctor to access your camera."
+        }
+      ],
+      "expo-image",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
