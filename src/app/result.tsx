@@ -161,7 +161,7 @@ const uiText = {
 // ======================================================
 
 const BACKEND_URL =
-  "https://ai-plant-doctor-piah.onrender.com";
+  "https://ai-plant-doctor-pian.onrender.com";
 
 // ======================================================
 // RESULT SCREEN
