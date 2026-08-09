@@ -306,18 +306,19 @@ const [
       }
 
       // MOBILE
-      const FileSystem =
-        await import(
-          "expo-file-system"
-        );
+// MOBILE
+const FileSystem =
+  await import(
+    "expo-file-system/legacy"
+  );
 
-      const base64 =
-        await FileSystem.readAsStringAsync(
-          image,
-          {
-            encoding: "base64",
-          } as any
-        );
+const base64 =
+  await FileSystem.readAsStringAsync(
+    image,
+    {
+      encoding: "base64",
+    } as any
+  );
 
       return `data:image/jpeg;base64,${base64}`;
     };
